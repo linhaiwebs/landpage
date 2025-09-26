@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="AI, 株価, 診断, 日本, 株式市場, 予測" />
+  <title>AI株価診断</title>
+  <link rel="stylesheet" type="text/css" href="static/css/common.css" />
+  <link rel="stylesheet" type="text/css" href="static/css/index.response.css" />
+</head>
+<body>
+  <div class="page flex-col">
+    <div class="group_1 flex-col">
+      <img class="image_4" referrerpolicy="no-referrer"
+        src="static/img/pst6nyhfo2m9ha2u1anuhiicsxp5dv693ncbb6833a-7104-4073-b851-ccd35c3e56fe.png" />
+      <img class="image_5" referrerpolicy="no-referrer"
+        src="static/img/psykbxu9igjtq5zhlotvkjvegzw3n49dmjddb35046-3713-4cda-a45e-00968cc28678.png" />
+      <span class="text_3">
+        <span class="stockName">ソフトバンクグル一プ(9984)</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span class="stocktime"> 2025/09/08 18:16</span></span>
+      <div class="container">
+        <div class="left">
+          <span class="stock_end">15865</span><br><span class="stock_up">+250 (+0.5)</span>
+        </div>
+        <div class="right">
+            <table>
+              <tr>
+              <td class="label">始値<span class="value stock_price">3250</span></td>
+              <td class="label">高値<span class="value stock_high">3250</span></td>
+              </tr>
+              <tr>
+              <td class="label">安値<span class="value stock_low">3250</span></td>
+              <td class="label">終値<span class="value stock_end">3250</span></td>
+              </tr>
+              <tr>
+              <td class="label">価格変動<span class="value stock_change">3250</span></td>
+              <td class="label">売買高(株)<span class="value stock_vemo">75200</span></td>
+              </tr>
+            </table>
+        </div>
+      </div>
+      <button class="button_2" onclick="startgo()">
+        <img class="image_2" referrerpolicy="no-referrer"
+          src="static/img/psyui20o57q9a03qarctdortazg41jdv7mu53cab220-1019-4720-ad5c-2e93313d6e66.png" />
+      </button>
+      <img class="image_3" referrerpolicy="no-referrer"
+        src="static/img/ps0tcgycgupj7os2ncf70xd9kb29c998jqst8555bf1f-e03f-4016-8874-cf1b6599d149.png" />
+      <span class="text_4">過去の診断実績</span>
+      <div class="grid_1 flex-row">
+        <div class="carousel-container">
+          <div class="carousel-content">
+            <div class="section_1 flex-row">
+              <div class="flex-col justify-between">
+              <span class="text_30">SBG</span>
+              <span class="text_30">9984</span>
+              </div>
+              <div class="flex-col justify-between">
+              <span class="text_30">昨日予測結果：</span>
+              <span class="text_30">今日株価変動：</span>
+              </div>
+              <div class="flex-col justify-between">
+              <span class="text_31">株価の下落確率が高い</span>
+              <span class="text_31">-1.32%</span>
+              </div>
+            </div>
+
+            <div class="section_1 flex-row">
+              <div class="flex-col justify-between">
+              <span class="text_30">キーエンス</span>
+              <span class="text_30">6861</span>
+              </div>
+              <div class="flex-col justify-between">
+              <span class="text_30">昨日予測結果：</span>
+              <span class="text_30">今日株価変動：</span>
+              </div>
+              <div class="flex-col justify-between">
+              <span class="text_31">株価の上昇確率が高い</span>
+              <span class="text_31">+0.89%</span>
+              </div>
+            </div>
+
+            <div class="section_1 flex-row">
+              <div class="flex-col justify-between">
+              <span class="text_30">FR</span>
+              <span class="text_30">9983</span>
+              </div>
+              <div class="flex-col justify-between">
+              <span class="text_30">昨日予測結果：</span>
+              <span class="text_30">今日株価変動：</span>
+              </div>
+              <div class="flex-col justify-between">
+              <span class="text_31">株価の上昇確率が高い</span>
+              <span class="text_31">+1.75%</span>
+              </div>
+            </div>
+
+            <div class="section_1 flex-row">
+              <div class="flex-col justify-between">
+              <span class="text_30">TEL</span>
+              <span class="text_30">8035</span>
+              </div>
+              <div class="flex-col justify-between">
+              <span class="text_30">昨日予測結果：</span>
+              <span class="text_30">今日株価変動：</span>
+              </div>
+              <div class="flex-col justify-between">
+              <span class="text_32">株価の下落確率が高い</span>
+              <span class="text_32">-0.56%</span>
+              </div>
+            </div>
+
+            <div class="section_1 flex-row">
+              <div class="flex-col justify-between">
+              <span class="text_30">MUFG</span>
+              <span class="text_30">8306</span>
+              </div>
+              <div class="flex-col justify-between">
+              <span class="text_30">昨日予測結果：</span>
+              <span class="text_30">今日株価変動：</span>
+              </div>
+              <div class="flex-col justify-between">
+              <span class="text_31">株価の上昇確率が高い</span>
+              <span class="text_31">+0.42%</span>
+              </div>
+            </div>
+
+            <div class="section_1 flex-row">
+              <div class="flex-col justify-between">
+              <span class="text_30">トヨタ</span>
+              <span class="text_30">7203</span>
+              </div>
+              <div class="flex-col justify-between">
+              <span class="text_30">昨日予測結果：</span>
+              <span class="text_30">今日株価変動：</span>
+              </div>
+              <div class="flex-col justify-between">
+              <span class="text_31">株価の上昇確率が高い</span>
+              <span class="text_31">+0.67%</span>
+              </div>
+            </div>
+
+            <div class="section_1 flex-row">
+              <div class="flex-col justify-between">
+              <span class="text_30">ソニー</span>
+              <span class="text_30">6758</span>
+              </div>
+              <div class="flex-col justify-between">
+              <span class="text_30">昨日予測結果：</span>
+              <span class="text_30">今日株価変動：</span>
+              </div>
+              <div class="flex-col justify-between">
+              <span class="text_32">株価の下落確率が高い</span>
+              <span class="text_32">-0.45%</span>
+              </div>
+            </div>
+
+            <div class="section_1 flex-row">
+              <div class="flex-col justify-between">
+              <span class="text_30">任天堂</span>
+              <span class="text_30">7974</span>
+              </div>
+              <div class="flex-col justify-between">
+              <span class="text_30">昨日予測結果：</span>
+              <span class="text_30">今日株価変動：</span>
+              </div>
+              <div class="flex-col justify-between">
+              <span class="text_31">株価の上昇確率が高い</span>
+              <span class="text_31">+1.12%</span>
+              </div>
+            </div>
+
+            <div class="section_1 flex-row">
+              <div class="flex-col justify-between">
+              <span class="text_30">ホンダ</span>
+              <span class="text_30">7267</span>
+              </div>
+              <div class="flex-col justify-between">
+              <span class="text_30">昨日予測結果：</span>
+              <span class="text_30">今日株価変動：</span>
+              </div>
+              <div class="flex-col justify-between">
+              <span class="text_32">株価の下落確率が高い</span>
+              <span class="text_32">-0.78%</span>
+              </div>
+            </div>
+
+            <div class="section_1 flex-row">
+              <div class="flex-col justify-between">
+              <span class="text_30">日立</span>
+              <span class="text_30">6501</span>
+              </div>
+              <div class="flex-col justify-between">
+              <span class="text_30">昨日予測結果：</span>
+              <span class="text_30">今日株価変動：</span>
+              </div>
+              <div class="flex-col justify-between">
+              <span class="text_31">株価の上昇確率が高い</span>
+              <span class="text_31">+0.54%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="button_1 flex-col" onclick="startgo()">
+        <img class="image_12" referrerpolicy="no-referrer"
+        src="static/img/psyui20o57q9a03qarctdortazg41jdv7mu53cab220-1019-4720-ad5c-2e93313d6e66.png" />
+      </button>
+      <div class="text-wrapper_7">
+        <span class="paragraph_1">
+          Copyright&#64;株価&nbsp;AI&nbsp;予測&nbsp;2025&nbsp;〒105-0011&nbsp;東京都港区芝公園&nbsp;4-2-8
+          <br />
+          電話：03-6868-4321&nbsp;メール：support&#64;kabupredict.jp
+          <br />
+          <br />
+        </span>
+        <span class="paragraph_2">
+          <a href="./disclaimer.html">免責事項</a> | <a href="./privacy-policy.html">プライバシーポリシー</a>
+        </span>
+      </div>
+      <div class="group_3 flex-col">
+        <span class="paragraph_3">
+        </span>
+      </div>
+      <img class="image_6" referrerpolicy="no-referrer"
+        src="static/img/ps749zcr7kwjq1gzcqk4yz3xw10i7y65mofe42e11d-b215-46b2-8488-1b456cdcde71.png" />
+      <img class="image_7" referrerpolicy="no-referrer"
+        src="static/img/ps7qjobiou0atl5lpbj1gdxshsr36ijjiun817d2090-7d44-4f84-bbd1-9fda95bf96c7.png" />
+      <img class="image_8" referrerpolicy="no-referrer"
+        src="static/img/pska5gz7w8gebrwl49iz6bm9gtt0cls42a6777ba9c6-1234-4d59-8d29-e225e8153fca.png" />
+    </div>
+  </div>
+  <!-- Loading Modal -->
+  <div id="loading-modal" class="modal">
+    <div id="t2" class="modal-content">
+        <h1 class="modal-title">銘柄無料診断</h1>
+        <h2 class="modal-subtitle">データベースから分析レポートを 取得中です…</h2>
+        <div class="modal-divider"></div>
+        <div class="progress-bars">
+          <div class="progress-bar">
+              <div class="progress-bg"></div>
+              <div class="progress-fill" data-target="100"></div>
+          </div>
+          <div class="progress-bar">
+              <div class="progress-bg"></div>
+              <div class="progress-fill" data-target="100"></div>
+          </div>
+          <div class="progress-bar">
+              <div class="progress-bg"></div>
+              <div class="progress-fill" data-target="100"></div>
+          </div>
+      </div>
+    </div>
+    <div class="modal-popup" style="display: none;">
+      <h1 class="modal-title">株価分析レポートが生成され まし た。</h1>
+      <h2 class="modal-subtitle">ご連絡いただき、早めにお受け取りください</h2>
+      <div class="modal-divider"></div>
+      <img class="analysis-image" referrerpolicy="no-referrer" src="static/img/analysis.png" alt="分析結果" />
+      <h2 class="modal-subtitle">ボタンをタップすると LINE 友だち追加画面に進みます。分析銘柄コード 『<span class="stockcode red">8267</span>』を送信していただくと、詳細な予測レポート</h2>
+      <button class="popup-button" onclick="startoff()"></button>
+  </div>
+  </div>
+</body>
+</html>
