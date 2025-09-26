@@ -906,7 +906,7 @@ button:active {
   border-radius: 15px;
   z-index: 2;
   overflow: hidden;
-  transition: width 0.1s linear;
+  transition: width 2s ease-out;
 }
 
 @keyframes shine {

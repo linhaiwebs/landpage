@@ -9,12 +9,14 @@ function App() {
     setShowModal(true)
     
     // 模拟进度条动画
-    const progressBars = document.querySelectorAll('.progress-fill')
-    progressBars.forEach((bar, index) => {
-      setTimeout(() => {
-        bar.style.width = '55%'
-      }, (index + 1) * 1000)
-    })
+    setTimeout(() => {
+      const progressBars = document.querySelectorAll('.progress-fill')
+      progressBars.forEach((bar, index) => {
+        setTimeout(() => {
+          bar.style.width = '55%'
+        }, index * 800)
+      })
+    }, 100)
 
     // 3秒后显示弹窗
     setTimeout(() => {
