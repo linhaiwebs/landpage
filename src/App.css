@@ -3,7 +3,7 @@
 /* Font Face */
 @font-face {
   font-family: 'HiraKakuPro';
-  src: url('../static/fonts/HiraKakuPro.ttf') format('truetype');
+  src: url('/fonts/HiraKakuPro.ttf') format('truetype');
 }
 
 /* Base Styles */
@@ -104,7 +104,7 @@ button:active {
   position: relative;
   width: 100vw;
   height: 252.14vw;
-  background: url(../static/img/psyi7qccv8aioc9mfy1jf4slj8qzufnpckbbadfd81-a470-468f-815e-f4c94ecd0782.png) -0.77vw 0vw no-repeat;
+  background: url(/img/psyi7qccv8aioc9mfy1jf4slj8qzufnpckbbadfd81-a470-468f-815e-f4c94ecd0782.png) -0.77vw 0vw no-repeat;
   background-size: 104.44vw 271.11vw;
 }
 
@@ -132,7 +132,7 @@ button:active {
 
 .text-wrapper_1 {
   height: 7.61vw;
-  background: url(../static/img/psrvri90o0ljeerpl8x3m81mxq47k5bhqdpe8461265-222c-471c-8ed5-7819815987ae.png) 100% no-repeat;
+  background: url(/img/psrvri90o0ljeerpl8x3m81mxq47k5bhqdpe8461265-222c-471c-8ed5-7819815987ae.png) 100% no-repeat;
   background-size: 100% 100%;
   width: 64.71vw;
   margin: 5.29vw 0 0 17.6vw;
@@ -637,7 +637,7 @@ button:active {
   top: 0;
   width: 100vw;
   height: 61.46vw;
-  background: url(../static/img/psrcl0ztgkhpmj1v2k9bvt82vhjd1s0y538d957aaf-ba05-4698-9717-e47fc5945d7a.png) -56.67vw -0.09vw no-repeat;
+  background: url(/img/psrcl0ztgkhpmj1v2k9bvt82vhjd1s0y538d957aaf-ba05-4698-9717-e47fc5945d7a.png) -56.67vw -0.09vw no-repeat;
   background-size: 219.48vw 61.53vw;
 }
 
@@ -825,7 +825,7 @@ button:active {
   width: 95%;
   max-width: 500px;
   margin: 20px;
-  background: url(../static/img/model.png) no-repeat center center;
+  background: url(/img/model.png) no-repeat center center;
   background-size: cover;
   text-align: center;
   color: white;
@@ -851,7 +851,7 @@ button:active {
   margin: 0 auto 25px;
   display: block;
   height: 2px;
-  background: url('../static/img/line.png') no-repeat center center;
+  background: url('/img/line.png') no-repeat center center;
   background-size: cover;
 }
 
@@ -881,17 +881,17 @@ button:active {
 }
 
 .progress-bar:nth-child(1) .progress-bg {
-  background-image: url('../static/img/progress1.png');
+  background-image: url('/img/progress1.png');
   background-size: cover;
 }
 
 .progress-bar:nth-child(2) .progress-bg {
-  background-image: url('../static/img/progress2.png');
+  background-image: url('/img/progress2.png');
   background-size: cover;
 }
 
 .progress-bar:nth-child(3) .progress-bg {
-  background-image: url('../static/img/progress3.png');
+  background-image: url('/img/progress3.png');
   background-size: cover;
 }
 
@@ -948,7 +948,7 @@ button:active {
   margin: 20px;
   padding: 15px;
   border-radius: 20px;
-  background: url(../static/img/model.png) no-repeat center center;
+  background: url(/img/model.png) no-repeat center center;
   text-align: center;
   color: white;
   overflow: hidden;
@@ -960,7 +960,7 @@ button:active {
     width: 95%;
     max-width: 500px;
     margin: 20px;
-    background: url(../static/img/model.png) no-repeat center center;
+    background: url(/img/model.png) no-repeat center center;
     background-size: cover;
     text-align: center;
     color: white;
@@ -986,7 +986,7 @@ button:active {
 }
 
 .popup-button {
-  background: url(../static/img/btn.png) no-repeat center center;
+  background: url(/img/btn.png) no-repeat center center;
   background-size: cover;
   border: none;
   width: 100%;

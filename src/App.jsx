@@ -32,9 +32,9 @@ function App() {
     <div className="page flex-col">
       <div className="group_1 flex-col">
         <img className="image_4" referrerPolicy="no-referrer"
-          src="static/img/pst6nyhfo2m9ha2u1anuhiicsxp5dv693ncbb6833a-7104-4073-b851-ccd35c3e56fe.png" />
+          src="/img/pst6nyhfo2m9ha2u1anuhiicsxp5dv693ncbb6833a-7104-4073-b851-ccd35c3e56fe.png" />
         <img className="image_5" referrerPolicy="no-referrer"
-          src="static/img/psykbxu9igjtq5zhlotvkjvegzw3n49dmjddb35046-3713-4cda-a45e-00968cc28678.png" />
+          src="/img/psykbxu9igjtq5zhlotvkjvegzw3n49dmjddb35046-3713-4cda-a45e-00968cc28678.png" />
         <span className="text_3">
           <span className="stockName">ソフトバンクグル一プ(9984)</span>&nbsp;&nbsp;|&nbsp;&nbsp;<span className="stocktime"> 2025/09/08 18:16</span>
         </span>
@@ -63,10 +63,10 @@ function App() {
         </div>
         <button className="button_2" onClick={startgo}>
           <img className="image_2" referrerPolicy="no-referrer"
-            src="static/img/psyui20o57q9a03qarctdortazg41jdv7mu53cab220-1019-4720-ad5c-2e93313d6e66.png" />
+            src="/img/psyui20o57q9a03qarctdortazg41jdv7mu53cab220-1019-4720-ad5c-2e93313d6e66.png" />
         </button>
         <img className="image_3" referrerPolicy="no-referrer"
-          src="static/img/ps0tcgycgupj7os2ncf70xd9kb29c998jqst8555bf1f-e03f-4016-8874-cf1b6599d149.png" />
+          src="/img/ps0tcgycgupj7os2ncf70xd9kb29c998jqst8555bf1f-e03f-4016-8874-cf1b6599d149.png" />
         <span className="text_4">過去の診断実績</span>
         <div className="grid_1 flex-row">
           <div className="carousel-container">
@@ -225,7 +225,7 @@ function App() {
         </div>
         <button className="button_1 flex-col" onClick={startgo}>
           <img className="image_12" referrerPolicy="no-referrer"
-          src="static/img/psyui20o57q9a03qarctdortazg41jdv7mu53cab220-1019-4720-ad5c-2e93313d6e66.png" />
+          src="/img/psyui20o57q9a03qarctdortazg41jdv7mu53cab220-1019-4720-ad5c-2e93313d6e66.png" />
         </button>
         <div className="text-wrapper_7">
           <span className="paragraph_1">
@@ -244,11 +244,11 @@ function App() {
           </span>
         </div>
         <img className="image_6" referrerPolicy="no-referrer"
-          src="static/img/ps749zcr7kwjq1gzcqk4yz3xw10i7y65mofe42e11d-b215-46b2-8488-1b456cdcde71.png" />
+          src="/img/ps749zcr7kwjq1gzcqk4yz3xw10i7y65mofe42e11d-b215-46b2-8488-1b456cdcde71.png" />
         <img className="image_7" referrerPolicy="no-referrer"
-          src="static/img/ps7qjobiou0atl5lpbj1gdxshsr36ijjiun817d2090-7d44-4f84-bbd1-9fda95bf96c7.png" />
+          src="/img/ps7qjobiou0atl5lpbj1gdxshsr36ijjiun817d2090-7d44-4f84-bbd1-9fda95bf96c7.png" />
         <img className="image_8" referrerPolicy="no-referrer"
-          src="static/img/pska5gz7w8gebrwl49iz6bm9gtt0cls42a6777ba9c6-1234-4d59-8d29-e225e8153fca.png" />
+          src="/img/pska5gz7w8gebrwl49iz6bm9gtt0cls42a6777ba9c6-1234-4d59-8d29-e225e8153fca.png" />
       </div>
 
       {/* Loading Modal */}
@@ -283,7 +283,7 @@ function App() {
             <h1 className="modal-title">株価分析レポートが生成され まし た。</h1>
             <h2 className="modal-subtitle">ご連絡いただき、早めにお受け取りください</h2>
             <div className="modal-divider"></div>
-            <img className="analysis-image" referrerPolicy="no-referrer" src="static/img/analysis.png" alt="分析結果" />
+            <img className="analysis-image" referrerPolicy="no-referrer" src="/img/analysis.png" alt="分析結果" />
             <h2 className="modal-subtitle">ボタンをタップすると LINE 友だち追加画面に進みます。分析銘柄コード 『<span className="stockcode red">8267</span>』を送信していただくと、詳細な予測レポート</h2>
             <button className="popup-button" onClick={startoff}></button>
           </div>
