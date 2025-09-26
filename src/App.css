@@ -1,0 +1,25 @@
+@import url('../static/css/common.css');
+@import url('../static/css/index.response.css');
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* 确保React应用的根元素样式正确 */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* 添加一些React特定的样式优化 */
+.section_1 {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  backdrop-filter: blur(5px);
+}
